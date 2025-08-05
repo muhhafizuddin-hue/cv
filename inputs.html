@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Inputs</title>
+</head>
+<body>
+    <form>
+        <label>Upload File</label><br>
+        <label for="avatar">Choose a profile picture:</label><br>
+        <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+
+        <p>Sign in to your account:</p>
+
+        <div>
+        <label for="userId">User ID</label>
+        <input type="text" id="userId" name="userId" />
+        </div>
+
+        <input type="image" id="image" alt="Login" src="image/hafizuddin_image-circle.png"/><br>
+        
+        <label for="start">Start date:</label>
+
+            <input
+                type="date"
+                id="start"
+                name="trip-start"
+                value="2018-07-22"
+                min="2018-01-01"
+                max="2018-12-31" />
+
+    </form>
+</body>
+</html>
